@@ -6,7 +6,11 @@ package helloworld;
  *
  */
 public class Hello {
+	public String getHello() {
+		return "Hello";
+	}
+	
 	public void say() {
-		System.out.println("Hello");
+		System.out.println(getHello());
 	}
 }
