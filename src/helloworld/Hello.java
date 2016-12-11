@@ -6,7 +6,8 @@ package helloworld;
  *
  */
 public class Hello {
+	private static String HELLO = "Hello";
 	public void say() {
-		System.out.println("Hello");
+		System.out.println(HELLO);
 	}
 }
