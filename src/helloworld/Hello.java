@@ -7,7 +7,11 @@ package helloworld;
  */
 public class Hello {
 	private static String HELLO = "Hello";
+	public String getHello() {
+		return HELLO;
+	}
+	
 	public void say() {
-		System.out.println(HELLO);
+		System.out.println(getHello());
 	}
 }
